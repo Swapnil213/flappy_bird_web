@@ -14,11 +14,11 @@
 
 .bird{
     height: 100px;
-    width: 100px;
+    width: 130px;
     position: fixed;
     top: 40vh;
     left: 30vw;
-    z-index: 9;
+    z-index: 100;
 }
 
 .pipe_sprite{
@@ -33,15 +33,16 @@
 
 .message{
     position: absolute;
-    z-index: 5;
+    z-index: 10;
     color: black;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .messageStyle{
-    background-color: white;
+    background: white;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 5%;
@@ -49,7 +50,7 @@
 
 .score{
     position: fixed;
-    z-index: 5;
+    z-index: 10;
     height: 10vh;
     font-size: 10vh;
     font-weight: 100;
